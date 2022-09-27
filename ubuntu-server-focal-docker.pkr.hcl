@@ -26,7 +26,7 @@ source "proxmox" "ubuntu-server-focal-docker" {
     insecure_skip_tls_verify = true
     
     # VM General Settings
-    node = "vh1"
+    node = "proxmox_node" # add your proxmox node
     vm_id = "100"
     vm_name = "ubuntu-server-focal-docker"
     template_description = "Ubuntu Server Focal Image with Docker pre-installed"
