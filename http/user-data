@@ -23,7 +23,7 @@ autoinstall:
     timezone: Africa/Johannesburg
     users:
       - name: your-user-name # add your username here
-        groups: [adm, sudo]
+        groups: [adm, docker, sudo]
         lock-passwd: false
         sudo: ALL=(ALL) NOPASSWD:ALL
         shell: /bin/bash

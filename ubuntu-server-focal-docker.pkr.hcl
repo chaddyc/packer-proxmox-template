@@ -33,7 +33,7 @@ source "proxmox" "ubuntu-server-focal-docker" {
 
     # VM OS Settings
     # (Option 1) Local ISO File - Download Ubuntu ISO and Upload To Proxmox Server
-    iso_file = "local:iso/ubuntu-22.04.1-live-server-amd64.iso"
+    iso_file = "local:iso/ubuntu-20.04.3-live-server-amd64.iso"
     # - or -
     # (Option 2) Download ISO
     # iso_url = "https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso"
